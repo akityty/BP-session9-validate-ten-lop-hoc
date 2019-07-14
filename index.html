@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isClassName(str) {
+        var regexp = /^[ACP][0-9]{4}[GHIKML]$/;
+        return regexp.test(str);
+    }
+    let str = prompt("nhap ten lop");
+    console.log(isClassName(str));
+</script>
+</body>
+</html>
